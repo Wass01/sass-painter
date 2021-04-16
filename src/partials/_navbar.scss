@@ -1,0 +1,26 @@
+.navbar{
+  height: 55px;
+  background-color: $primary_color;
+  nav{
+    @include flex-head;
+    height: 55px;
+    font-size: $font_medium;
+    div > a{
+      margin-left: 30px;
+      color: $text_color;
+      &:hover{
+        background-color: $text_color;
+        color: $primary_color;
+        padding: 20px;
+      }
+    }
+    i{
+      color: #989898;
+    }
+  }
+}
+
+
+.logo img{
+  width: 100px;
+}

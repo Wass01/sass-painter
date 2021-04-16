@@ -15,6 +15,10 @@ ul{
 
 a{
   text-decoration: none;
+}
+
+.info a,
+footer a{
   color:  #989898;
   &:hover{
     color: $text_color;

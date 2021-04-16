@@ -15,28 +15,60 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.info a,
+footer a {
   color: #989898;
 }
-a:hover {
+.info a:hover,
+footer a:hover {
   color: #ffffff;
   text-decoration: underline;
 }
 
 .info {
-  height: 50px;
+  height: 40px;
   background-color: #101010;
 }
 .info .first-nav {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  flex-direction: row;
-  height: 50px;
+  height: 40px;
+  font-size: 14px;
 }
 .info .first-nav div i {
   color: #009CFF;
 }
 
-section div {
+.first-nav > * {
   padding-right: 20px;
+}
+
+.navbar {
+  height: 55px;
+  background-color: #101010;
+}
+.navbar nav {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  font-size: 16px;
+}
+.navbar nav div > a {
+  margin-left: 30px;
+  color: #ffffff;
+}
+.navbar nav div > a:hover {
+  background-color: #ffffff;
+  color: #101010;
+  padding: 20px;
+}
+.navbar nav i {
+  color: #989898;
+}
+
+.logo img {
+  width: 100px;
 }
