@@ -46,6 +46,11 @@ footer a:hover {
   padding-right: 20px;
 }
 
+.jumbo {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
 .navbar {
   height: 55px;
   background-color: #101010;
