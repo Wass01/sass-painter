@@ -25,3 +25,30 @@ footer a{
     text-decoration: underline;
   }
 }
+
+.disp-flex{
+  display: flex;
+}
+
+.mt-50{
+  margin-top: 50px;
+}
+
+.mt-35{
+  margin-top: 35px;
+}
+
+.mt-45{
+  margin-top: 45px;
+}
+
+.mt-20{
+  margin-top: 20px;
+}
+
+button{
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: $p_jumbo;
+  border: none;
+}

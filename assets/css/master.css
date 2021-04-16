@@ -27,6 +27,33 @@ footer a:hover {
   text-decoration: underline;
 }
 
+.disp-flex {
+  display: flex;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+
+.mt-45 {
+  margin-top: 45px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  border: none;
+}
+
 .info {
   height: 40px;
   background-color: #101010;
@@ -71,4 +98,35 @@ footer a:hover {
 
 .logo img {
   width: 100px;
+}
+
+.jumbo {
+  background-image: url("../../assets/img/bg-painter-home.jpg");
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.jumbo .jumbo-child > p {
+  font-size: 20px;
+}
+.jumbo .jumbo-child .pink {
+  font-size: 20px;
+  color: #c70cb9;
+}
+.jumbo .jumbo-child > * {
+  width: 50%;
+}
+.jumbo div button:first-of-type {
+  background-color: #101010;
+  color: #ffffff;
+}
+.jumbo div button:nth-child(2) {
+  border: 2px solid #101010;
+  color: #101010;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-left: 30px;
+}
+
+.logo-2021 img {
+  width: 250px;
 }

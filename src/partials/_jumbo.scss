@@ -1,3 +1,32 @@
 .jumbo{
-  background: url(require('bg-painter-home.jpg'));
+  background-image: url('../../assets/img/bg-painter-home.jpg');
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .jumbo-child > p{
+    font-size: $p_jumbo;
+  }
+  .jumbo-child .pink{
+    font-size: $p_jumbo;
+    color: #c70cb9;
+  }
+  .jumbo-child > *{
+    width: 50%;
+  }
+
+  div button:first-of-type{
+    background-color: $primary_color;
+    color: $text_color;
+  }
+
+  div button:nth-child(2){
+    border:2px solid $primary_color;
+    color: $primary_color;
+    background-color: rgba(255,255,255,0.1);
+    margin-left: 30px;
+  }
+}
+
+.logo-2021 img{
+  width: 250px;
 }
