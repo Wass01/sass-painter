@@ -1,0 +1,17 @@
+.info{
+  height: 50px;
+  background-color: $primary_color;
+  .first-nav{
+    @include flex-head;
+    justify-content: flex-end;
+    flex-direction: row;
+    height: 50px;
+    & div i{
+      color: $second_color;
+    }
+  }
+}
+
+section div{
+  padding-right: 20px;
+}

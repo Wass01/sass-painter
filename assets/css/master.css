@@ -1,1 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #989898;
+}
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.info {
+  height: 50px;
+  background-color: #101010;
+}
+.info .first-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  height: 50px;
+}
+.info .first-nav div i {
+  color: #009CFF;
+}
+
+section div {
+  padding-right: 20px;
+}
