@@ -1,0 +1,37 @@
+h2.text-cent{
+  color: $primary_color;
+  font-size: $font_big;
+  letter-spacing: 2px;
+}
+
+.card{
+  .card-child{
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    img{
+      width: 100%;
+    }
+    .under-image{
+      height: 180px;
+      background-color: $text_color;
+      padding: 20px;
+      h4{
+        font-size: $font_h4;
+      }
+      p{
+        font-size: 17px;
+      }
+      a{
+        position: relative;
+        top: 20px;
+        font-size: 17px;
+        color: $second_color;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

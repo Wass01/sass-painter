@@ -1,0 +1,49 @@
+.links-child{
+  width: 25%;
+  padding: 15px;
+  ul li:first-of-child{
+    margin-top: 15px;
+  }
+  ul li{
+    padding-top: 5px;
+    a{
+      color: $list_color;
+      font-size: $font_small;
+    }
+    & a:hover{
+      text-decoration: underline;
+    }
+  }
+  .social{
+    display: flex;
+    li{
+      padding-right: 10px;
+    }
+    li a i{
+      font-size: 40px;
+    }
+  }
+}
+
+// icons
+.social{
+  .fa-instagram-square {
+    color: #E4405F;
+  }
+  .fa-facebook-square{
+    color: #3B5998;
+  }
+  .fa-twitter-square {
+    color: #1DA1F2;
+  }
+  .fa-youtube-square{
+    color: #CD201F;
+  }
+  .fa-pinterest-square {
+    color: #BD081C;
+  }
+  .fa-rss-square{
+    color: #FF8D00;
+  }
+
+}

@@ -9,6 +9,10 @@
   margin: 0 auto;
 }
 
+main{
+  background-color: $back_color;
+}
+
 ul{
   list-style-type: none;
 }
@@ -30,6 +34,7 @@ footer a{
   display: flex;
 }
 
+// margin & padding
 .mt-50{
   margin-top: 50px;
 }
@@ -42,8 +47,33 @@ footer a{
   margin-top: 45px;
 }
 
+.mt-70{
+  margin-top: 70px;
+}
+
 .mt-20{
   margin-top: 20px;
+}
+
+.mb-45{
+  margin-bottom: 45px
+}
+
+.pt-45{
+  padding-top: 45px;
+}
+
+.pb-45{
+  padding-bottom: 45px;
+}
+
+.pb-25{
+  padding-bottom: 25px;
+}
+// margin & padding
+
+.text-cent{
+  text-align: center;
 }
 
 button{
