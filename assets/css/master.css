@@ -260,6 +260,7 @@ h2.text-cent {
 }
 .links-child .social {
   display: flex;
+  flex-wrap: wrap;
 }
 .links-child .social li {
   padding-right: 10px;
